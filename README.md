@@ -1,4 +1,4 @@
-# What We Want
+# Who We Are:
 Located within the University of Alabama Libraries, the Alabama Digital Humanities Center (AHDC) is a hub for Digital Humanities practitioners and students. The mission of the center is to support Digital Humanities scholarship and teaching on campus through programming and outreach. The Alabama Digital Humanities Center is staffed by Our goal is to connect people with each other and with the resources and support that they need to reach their potential as researchers, teachers, and students.   
 
 # What We Do: 
@@ -7,11 +7,9 @@ The ADHC provides community, skills training, and collaboration towards the deve
 
 ## Table of Contents
 ### Outreach:
-1. Digitorium
-2. Podcast
-3. Website
-4. GitHub
-5. Discord
+1. Digitorium Conference
+2. ADHC Talks Podcast
+3. ADHC Project Gallery
 
 ### Web Hosting
 1. Consulting and Planning
@@ -28,3 +26,5 @@ The ADHC provides community, skills training, and collaboration towards the deve
 2. Grant support for hosted projects
 3. Grant writing support and partnership with the ASSIST office
 
+### Who is this for:
+We use this repository for public-facing operational and documentation to support day to day activities, staff onboarding and succession planning, and communicating with stakeholders. 
