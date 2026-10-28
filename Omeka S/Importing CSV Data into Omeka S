@@ -1,0 +1,142 @@
+# Importing CSV Data Into Omeka S
+
+This guide provides a comprehensive walkthrough for configuring and executing CSV imports into Omeka S. Learn how to map your data fields and resource templates effectively to streamline your collection management process.
+
+#### CSV Import Setup
+
+
+1\. Navigate to the Omeka S admin dashboard
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/413d3642-bf49-4cb3-a191-c44d815a1cad/action-187a53516a2e4368ae9e6908ee6e2b5c_27ffd5ef61c34263a248a84d544f965a_text_export.jpeg)
+
+
+2\. Click "CSV Import"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/413d3642-bf49-4cb3-a191-c44d815a1cad/action-187a53516a2e4368ae9e6908ee6e2b5c_a978870aff6043359dff0cca75b191f1_text_export.jpeg)
+
+
+3\. Upload the .csv file in the "Spreadsheet (csv, tsv or ods)" field.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/fe8e2c57-90f4-4f6f-87a8-85f2acd40c98/action-583a0e8b882d436884b029eff5d791ee_c41a9c4054c141b8ab775d07cd84612f_text_export.jpeg)
+
+
+4\. Select the "Mixed resources" option for the "Import type" field.\
+Click "Next"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-21/339d26c1-95e1-40f4-bbb3-741ce1a22d88/user_cropped_screenshot_a1fa1630586f4e37883ac615e81b2b52_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/1d6b4395-0f9f-49a4-8cbd-aadaeb6c3115/action-496b94888adf45c2b5b538fe1b3ecd61_1ea8a45610a542ee9fbd5598b42ae7ea_text_export.jpeg)
+
+
+#### Resource Mapping
+
+
+5\. Select the "Resource Type" option for the "Resource type column" field.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/4160b212-644e-4323-97ff-50d1a97d31f6/action-5b0287669de14b65b8a7704b5b5e52ac_99aa029a77e649ca915f6ee5fe435132_text_export.jpeg)
+
+
+6\. Click the plus button for the Resource Template row.\
+Under "Generic Data", select the "Resource template (by label)" option.\
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/3e66245e-5fa0-4c21-ac67-d77b80596bcd/action-a5e0e061949d48809f248dac92d0c710_0365760322544df89a2802716133ec08_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/04695d4f-6fe1-495f-ba11-b75ef5af157f/action-384e56350c2b4893a594b430f8bcb2d2_ccb1f96978fd47c4b1939633719dc405_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/5f171d86-7fcd-475b-887a-a360a01327df/action-d71f5daadb33450f889baac802dade24_74e13e6ceed34e74942b5f83ad77ca54_text_export.jpeg)
+
+
+7\. Click the plus button for the Parent Item Set row.
+Under "Item-specific data", select the "Dublin Core: Title" property for the "Item set (by selected property)" field.
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/20b0d33e-53a2-4b0a-80a5-3e614ad700b9/action-bb54a84138c94b87a0edbd822d7912d8_a41dae6027074276a4980da53eee078c_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/61c51e8c-7766-4102-a5d5-b026f47148ec/action-ee03c7931bf44985a05388a65fbf6714_ceeb87e969f34fc395d1c7ccd2d33f32_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/0c758e20-3c45-4d5d-8fe4-664b32c60c8a/action-854bf5f384a5426dba1a8ea4d497bf02_094505aa3150458494c19f02188fdb15_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/9fab9be4-0dba-4244-bd4a-faedb784f2b2/action-b22c9811e63e4bca8e1757613b613a46_6171df31af9b43bfa485b1ed30be2c19_text_export.jpeg)
+
+
+8\. Click the plus icon for the Parent Item row.\
+Under "Media-specific data", select the "Dublin Core: Title" property for the "Item (by selected property)" field.\
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/11d2d022-4af9-4e22-ae20-33c7388b87e7/action-7ceaba8d69c64b17b4839c02c157e91f_c76f7bfb7daf47bc86566a66238efdde_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/0713cd5f-f151-413d-914d-62937e62522e/action-a038a122d2c74385b0e008d41d79c58b_96cc05fd3c664f2697b15f735e546107_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/ba1b4e62-a44b-4c44-adec-237803b7c78d/action-7d35342fd487420f8e305ed132fcd863_a516ae6fdc42425a8e998dabbc0d7259_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/717ef97f-8f17-4d3c-ba9f-6f1a6d47c939/action-a3b9b9b9716a444a90760aa0291b81f2_27895cc4ed464b8c9b3cefe6603c1881_text_export.jpeg)
+
+
+9\. Click the wrench icon for the foaf:interest row.\
+Click the checkbox for the "Use multivalue separator" field.\
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/9034c371-05f6-46c7-93b9-e6b98e0d27a9/action-703a79195362485f8f851d302698bc6a_dadfc96b7d9247ebae833d6c23ec34df_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/f99e23ad-3c81-4606-a123-57b2f760b881/action-7f2f969b54ed40e8bb708219466472d7_a79010b6dfad4835885a99b876e4e51a_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/b9a75689-bee5-48ee-9887-62bd5448c0a4/action-1520969ccd0f49f1ac3e832377ab10da_e84fb9df4c5645c6bcb329b9844be656_text_export.jpeg)
+
+
+10\. Click the wrench icon for the dcterms:relation row.
+Click the checkbox for the "Use multivalue separator" field.
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/1ef3f618-f298-41d2-8891-841a55c85248/action-9e86f3e610d44178917d3462c7e3de1b_bac0bcd5782a440b96fe551aceddb44c_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/55f1246a-bbab-4979-9bf9-ede67bb5d24f/action-0a4e1d0b8a2c42be886a833f2d018b6d_efe891e1c9c84832891ee769dae3579b_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/8e4fc9d6-eef6-4fe0-9009-adf9471ad8e8/action-20713100e70f4e0f9e030bd059e79123_fd0f9692da5c4f7ba2583f762a0785d2_text_export.jpeg)
+
+
+11\. Click the plus icon for the File Name row.
+Under "Media source", select the "Sideload" option.
+Click "Apply changes"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/70295767-8a3f-43f4-8048-75743e090062/action-229d893bc95c4735acf5c4d3f282d774_a39c80f294894b01a39a01390ba2eccf_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/1a047488-74b0-4f16-b2b7-b7aa6bb1b847/action-0451acd622ea454ab2a30a81beb02f75_9e0a3d4a0e60433d937e4d01beab579e_text_export.jpeg)
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/efe87aa8-b170-48ab-a8d0-065523537680/action-022e312861e3409283ef6503f21ed6e4_b81b621f52e349eeac1cca58aba3a694_text_export.jpeg)
+
+
+#### Import Settings
+
+
+12\. Click "Basic Settings"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/acd9c5cc-d7fd-47ff-bc53-230bad493330/action-1a7e9eefb211494a81a989c92bb3e77e_981aff30bcdb41b789dee1c0776a4fd1_text_export.jpeg)
+
+
+13\. Remove the unwanted sites from the "Sites for items" field.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/6b423560-82d9-4475-a195-923dd0f944dd/action-8904e98586e64f69a7f5d9036ccaeb40_211c00b271e4443786f76821e0a84696_text_export.jpeg)
+
+
+14\. Click "Advanced Settings"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/908bc457-4c1c-409e-9e3e-fda375b0bfe4/action-126cdbfd07054586b1d848d9cd5a331a_3b91a668e0fc47a5990b79d43dc758df_text_export.jpeg)
+
+
+15\. Select the "Update data of the resource" option for the "Action" field.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/abdaeac7-3dcd-4032-862a-f97cf03f3271/action-d3a0e1dd7e3a49bd8b92aa568b47112e_af6cb3e7fac0406ca5087d07f4eed15e_text_export.jpeg)
+
+
+16\. Select the "Create a new resource" radio button for the "Action on unidentified resources" field.
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/6beaa679-7709-42a5-9ea8-64716aea428c/action-489bfe4e97684386abadb8712cc69aed_aa6aa5362b98443dbef9e1a0a3439c30_text_export.jpeg)
+
+
+17\. Click "Import"
+
+![](https://colony-recorder.s3.us-west-1.amazonaws.com/files/2026-10-16/71c83c39-4325-4ccc-8a1b-eb4cac4e4adb/action-bee0494bb80b46439cf912d3e5ebea60_91678e29a128497f807745890d183902_text_export.jpeg)
+
+
+
